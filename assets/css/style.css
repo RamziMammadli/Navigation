@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0%;
+}
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background-color: red;
+}
+.nav-bar a {
+    text-decoration: none;
+    font-size: large;
+    padding: 8px;
+    color: white;
+    padding-inline: 18px;
+
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+    
+}
+
+.top-bar {
+    background-color: black;
+    text-align: end;
+    padding: 10px;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 7px;
+}
+
+.logo-section {
+    margin-left: 100px;
+}
+
+button {
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+
+}
